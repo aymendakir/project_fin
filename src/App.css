@@ -1,0 +1,97 @@
+*{
+scroll-behavior: smooth;
+box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.text{
+  color: black;
+}
+.po{
+  transform: translate(20%,1%);
+  overflow: hidden;
+  width: auto;
+}
+.font_ac{
+  font-family: 'Afacad', sans-serif;
+}
+.font_home{
+  font-family: 'Nunito', sans-serif;
+}
+.logo_color{
+  background: -webkit-linear-gradient(#7F32CD, #E61E43 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.color_bleu{
+  color: #F2007D;
+}
+.color_primary{
+  color: #7F32CD;
+}
+.borde_color{
+  border-color:#F2007D ;
+}
+.bg-bg:hover{
+  background-color: #F2007D;
+  color: white;
+}
+.text-byed{
+  color: #F9F8F8 ;
+}
+.bg-byd{
+  background-color: #F9F8F8 ;
+}
+.bg-bgr{
+  background-color: #F2007D;
+}
+.cc{
+  background-image: url("/src/components/img/product-04.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 980px) {
+.text-webkit-right{
+  text-align: -webkit-right;
+
+}
+}
+
